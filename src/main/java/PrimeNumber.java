@@ -2,7 +2,7 @@ public class PrimeNumber {
 
         public static void main(String[] args) {
 
-            int num = 56, i = 2;
+            int num = 31, i = 2;
             boolean flag = false;
             while (i <= num / 2) {
                 // condition for nonprime number
@@ -13,7 +13,7 @@ public class PrimeNumber {
                 ++i;
             }
 
-            if (!flag)
+            if  (flag==false) // = (!flag)
                 System.out.println(num + " is a prime number.");
             else
                 System.out.println(num + " is not a prime number.");
